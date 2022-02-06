@@ -17,12 +17,14 @@
 		<img id="clouds" src="images/sky_texture.jpg" crossorigin="anonymous" />
 		<img id="brick" src="images/brick_texture.jpg" crossorigin="anonymous" />
 	</a-assets>
-		
+	
+<!--- sky --->
 	<a-sky 
 		color = "#FFFFFF"
 		material = "src: #clouds">
 	</a-sky>
 
+<!--- ground --->
 	<a-plane
 		width="100" height="100"
 		position=" 0.00 0.00 0.00" 
@@ -31,7 +33,8 @@
 		material="src: #snow; repeat:10 10;"
 		shadow="cast: false; receive: true">
 	</a-plane>
-	
+
+<!--- home structure --->
 	<a-box
 		width = "3" height = "5" depth = "3"
 		position = "3 0.5 3"
@@ -40,7 +43,8 @@
 		material = "src: #brick;"
 		shadow = "cast: true; receive: true">
 	</a-box>
-	
+
+<!--- snowball --->
 	<a-sphere
 		radius = "0.2"
 		position = "0 1.25 5"
@@ -48,6 +52,7 @@
 		shadow = "cast: true; receive: true">
 	</a-sphere>
 	
+<!--- penguin character --->
 	<a-box
 		radius = "0.5" height = "1.5"
 		position = " 1 0.75 -3"
@@ -55,10 +60,11 @@
 		material = "src: #character;"
 		shadow = "cast: true; receive: true">
 	</a-box>
-	
+
+<!--- tree --->
 	<a-cone 
 		color = "#FFFFFF"
-		radius-bottom="2" 
+		radius-bottom="4" 
 		radius-top="0" 
 		height="10" 
 		position="0 0 -13" 
