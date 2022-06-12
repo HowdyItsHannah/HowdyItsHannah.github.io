@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customize Horse</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+
+        <div id="wrapper">
+       
+        <div id="container1">
+            <img id="background_1" src="images/farmland.jpg">
+            <img id="background_2" src="images/town.jpg"> 
+            <img id="background_3" src="images/mountains.jpg"> 
+       
+            
+            <img id="horse_1" src="images/whitehorse.png">
+            <img id="horse_2" src="images/brownhorse.png">
+            <img id="horse_3" src="images/grayhorse.png">
+            
+            <img id="manetail_1" src="images/blackmt.png">
+            <img id="manetail_2" src="images/whitemt.png">
+            <img id="manetail_3" src="images/brownmt.png">
+            
+            <img id="halter_1" src="images/bluehalter.png">
+            <img id="halter_2" src="images/pinkhalter.png">
+            <img id="halter_3" src="images/greenhalter.png">
+            
+            <img id="fly_" src="images/fly.png">
+            <img id="speed_" src="images/speed.png">
+            <img id="shield_" src="images/shield.png">
+            
+        </div>
+
+       <div id="container2">
+
+            <h2> World </h2>  
+            <div class="section">
+            <button id="B1">farm</button>
+            <button id="B2">town</button>
+            <button id="B3">mountains</button>
+            </div>
+
+            <h2> Body </h2>  
+            <div class="section">
+            <button id="H1">white</button>
+            <button id="H2">brown</button>
+            <button id="H3">gray</button>
+            </div>
+
+            <h2> Mane & Tail </h2>  
+            <div class="section">
+            <button id="MT1">black</button>
+            <button id="MT2">white</button>
+            <button id="MT3">brown</button>
+            </div>
+
+            <h2> Halter </h2>  
+            <div class="section">
+            <button id="S1">blue</button>
+            <button id="S2">pink</button>
+            <button id="S3">green</button>
+            </div>
+
+            <h2> Power </h2>  
+            <div class="section">
+            <button id="f">fly</button>
+            <button id="sp">speed</button>
+            <button id="sh">shield</button>
+            </div>
+
+        </div> 
+         
+            <div id="container3">
+                    <h1> Customize Your Horse and World </h1>
+            </div>
+
+            <div id="container4">
+                   <button id="done">Done</button> 
+            </div> 
+            
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                /*This line hides the new logo for the initial state.*/    
+                  $("#background_2").hide();
+                  $("#background_3").hide();
+                
+                $("#B1").click(function(){
+                    $("#background_2").hide();
+                    $("#background_3").hide();
+                    $("#background_1").show();
+                  });
+                /*When the user clicks this button, it hides the new logo and shows the old one.*/  
+                  $("#B2").click(function(){
+                    $("#background_1").hide();
+                    $("#background_3").hide();
+                    $("#background_2").show();
+                  });
+                /*When the user clicks this one, it does the opposite.*/  
+                  $("#B3").click(function(){
+                    $("#background_3").show();
+                    $("#background_2").hide();
+                    $("#background_1").hide();
+                  });
+            });
+        </script>
+        
+        <script>
+            $(document).ready(function(){
+                /*This line hides the new logo for the initial state.*/    
+                  $("#horse_2").hide();
+                  $("#horse_3").hide();
+                
+                $("#H1").click(function(){
+                    $("#horse_2").hide();
+                    $("#horse_3").hide();
+                    $("#horse_1").show();
+                  });
+                /*When the user clicks this button, it hides the new logo and shows the old one.*/  
+                  $("#H2").click(function(){
+                    $("#horse_1").hide();
+                    $("#horse_3").hide();
+                    $("#horse_2").show();
+                  });
+                /*When the user clicks this one, it does the opposite.*/  
+                  $("#H3").click(function(){
+                    $("#horse_3").show();
+                    $("#horse_2").hide();
+                    $("#horse_1").hide();
+                  });
+            });
+        </script>
+        
+        <script>
+            $(document).ready(function(){
+                /*This line hides the new logo for the initial state.*/    
+                  $("#manetail_2").hide();
+                  $("#manetail_3").hide();
+                
+                $("#MT1").click(function(){
+                    $("#manetail_2").hide();
+                    $("#manetail_3").hide();
+                    $("#manetail_1").show();
+                  });
+                /*When the user clicks this button, it hides the new logo and shows the old one.*/  
+                  $("#MT2").click(function(){
+                    $("#manetail_1").hide();
+                    $("#manetail_3").hide();
+                    $("#manetail_2").show();
+                  });
+                /*When the user clicks this one, it does the opposite.*/  
+                  $("#MT3").click(function(){
+                    $("#manetail_3").show();
+                    $("#manetail_2").hide();
+                    $("#manetail_1").hide();
+                  });
+            });
+        </script>
+        
+        <script>
+            $(document).ready(function(){
+                /*This line hides the new logo for the initial state.*/    
+                  $("#halter_2").hide();
+                  $("#halter_3").hide();
+                
+                $("#S1").click(function(){
+                    $("#halter_2").hide();
+                    $("#halter_3").hide();
+                    $("#halter_1").show();
+                  });
+                /*When the user clicks this button, it hides the new logo and shows the old one.*/  
+                  $("#S2").click(function(){
+                    $("#halter_1").hide();
+                    $("#halter_3").hide();
+                    $("#halter_2").show();
+                  });
+                /*When the user clicks this one, it does the opposite.*/  
+                  $("#S3").click(function(){
+                    $("#halter_3").show();
+                    $("#halter_2").hide();
+                    $("#halter_1").hide();
+                  });
+            });
+        </script>
+        
+        <script>
+            $(document).ready(function(){
+                /*This line hides the new logo for the initial state.*/    
+                  $("#speed_").hide();
+                  $("#shield_").hide();
+                
+                $("#f").click(function(){
+                    $("#speed_").hide();
+                    $("#shield_").hide();
+                    $("#fly_").show();
+                  });
+                /*When the user clicks this button, it hides the new logo and shows the old one.*/  
+                  $("#sp").click(function(){
+                    $("#fly_").hide();
+                    $("#shield_").hide();
+                    $("#speed_").show();
+                  });
+                /*When the user clicks this one, it does the opposite.*/  
+                  $("#sh").click(function(){
+                    $("#shield_").show();
+                    $("#speed_").hide();
+                    $("#fly_").hide();
+                  });
+            });
+        </script>
+    </body>
+</html>
