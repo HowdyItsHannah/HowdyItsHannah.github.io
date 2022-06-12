@@ -1,0 +1,33 @@
+* {margin:0; padding:0;}
+
+
+body {background-image:url(../images/landscape.jpg);}
+
+#gallery {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap; 
+}
+
+img {
+    border:0.5px solid white;
+}
+
+.container {
+    margin-top:30px;
+    margin-left:60px;
+    margin-right:60px;
+    margin-bottom:60px;
+    justify-content: center;}
+
+h1, p {
+    color:white;
+    padding-left:60px;
+    padding-top:30px;
+}
+
+h1 {font-family:"Playfair Display";}
+p {font-family:"Georgia"; padding-bottom:30px;}
+
+
+    
