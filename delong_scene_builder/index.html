@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Let's Play Tic Tac Toe </title>
+        <link type="text/css" href="style.css" rel="stylesheet">
+    </head>
+
+    
+    
+    <body>
+        <div id="wrapper">
+            <div id="componentsarea">
+                
+                <div id="pieces">
+                    <img id="one" src="images/o1.png">
+                    <img id="two" src="images/o2.png">
+                    <img id="three" src="images/o3.png">
+                    <img id="four" src="images/o4.png">
+                    <img id="" src="images/o5.png">
+                    <img id="" src="images/x1.png">
+                    <img id="" src="images/x2.png">
+                    <img id="" src="images/x3.png">
+                    <img id="" src="images/x4.png">
+                    <img id="" src="images/x5.png">
+                </div>
+                
+                <div id="background">
+                    
+                   
+    
+                        <div id="buttons">
+                        <button id="up">up</button>
+                        <button id="down">down</button>
+                        <button id="left">left</button>
+                        <button id="right">right</button>
+
+                        <button id="reset">reset</button>
+                        <button id="done">done</button>
+                        </div>
+                    
+                    
+                </div>
+                
+                
+            </div>   
+        </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+             
+                //Create a variable to keep track of what is selected. The variable is empty at this point. We'll fill it in the next function.
+                
+                var selectedcomponent;    
+                
+                //When the user clicks on an image, set the variable above to whatever is clicked on (the image, in this case). Then add a class to that thing that is clicked on so it looks different. Also, remove the classs from everything else so we can do this multiple times with different images. 
+                
+                  $(" #componentsarea img ").click(function(){
+                      selectedcomponent = this;
+                      $( "#componetnsarea img" ).removeClass( "selected" );
+                      $( selectedcomponent ).addClass( "selected" );
+                      
+                      $("#right").click(function(){
+                        $(selectedcomponent).animate({ left: '+=80px'});
+                          
+                });
+                      
+                      $("#left").click(function(){
+                        $(selectedcomponent).animate({ left: '-=80px'});
+                         
+                });
+                      
+                      $("#up").click(function(){
+                        $(selectedcomponent).animate({ top: '-=80px'});
+                });
+                      
+                      $("#down").click(function(){
+                        $(selectedcomponent).animate({ top: '+=80px'});
+                });
+                      
+                      $("#reset").click(function(){
+                    $(selectedcomponent).animate({ top: '0', left: '0'});
+                })  
+                      
+                      $("#done").click(function(){
+                    $( "#componentsarea img" ).removeClass( "selected" );
+                })      
+                      
+                      
+              
+                  }); 
+                
+            });
+        </script>
+    
+        
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
+
