@@ -1,0 +1,173 @@
+{margin:0; padding:0;}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    padding-top:30%;
+    
+
+}
+
+
+body{
+    
+    background-image:url(images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:1000vw;
+}
+
+.scene{ 
+    height: 70vw;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size:60%;
+    background-position:center;
+    
+    
+}
+
+
+.box{
+    width:10vw;
+    height:10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#three {
+    background-image:url(images/step12.png);
+   
+      
+}
+
+#four {
+    background-image:url(images/step11.png);
+    
+}
+
+#five {
+    background-image:url(images/step10.png);
+}
+
+#six {
+    background-image:url(images/step9.png);
+}
+
+#seven {
+    background-image:url(images/step8.png);
+}
+
+#eight {
+    background-image:url(images/step7.png);
+}
+
+#nine {
+    background-image:url(images/step6.png);
+}
+
+#ten {
+    background-image:url(images/step5.png);
+}
+
+#eleven {
+    background-image:url(images/step4.png);
+}
+
+#twelve {
+    background-image:url(images/step3.png);
+}
+
+#thirteen {
+    background-image:url(images/step2.png);
+}
+
+#fourteen {
+    background-image:url(images/step1.png);
+   
+}
+
+#fifteen {
+    background-image:url(images/step12.png);
+    
+}
+
+.bee {
+    background-image:url(images/bee.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:3vw;
+    height:3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bee2 {
+    background-image:url(images/bee2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:3vw;
+    height:3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butterfly {
+    background-image:url(images/step12.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:10vw;
+    height:20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purpleflower {
+     background-image:url(images/purpleflower.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:10vw;
+    height:10vw;
+    display: flex;
+    align-items: center;
+}
+
+
+.plane {
+     background-image:url(images/plane.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:10vw;
+    height:10vw;
+    display: flex;
+    align-items: center;
+}
+.plane2 {
+    background-image:url(images/plane2.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:10vw;
+    height:10vw;
+    display: flex;
+    align-items: center;
+}
+
+.yellowflower {
+    background-image:url(images/yellowflower.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:10vw;
+    height:10vw;
+    display: flex;
+   
+
+}
