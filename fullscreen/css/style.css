@@ -1,0 +1,127 @@
+
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 3em;
+        font-weight: bold;
+		font-family: 'Homemade Apple', cursive;
+		color: #4c1711;
+		margin:auto;
+		padding:auto;
+        letter-spacing:8px;
+        text-shadow:0.5px 0.5px #FFF;
+        text-align:center;
+        
+	}
+
+    h2 {
+        
+        font-size:18px;
+       font-family:"Georgia";
+       color:white;
+        line-height:25px;
+      
+    }
+
+   span {font-family:'Homemade Apple';color:#4c1711;font-weight:bolder; text-shadow:0.2px 0.2px #FFF;}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	
+ 
+
+	/* Backgrounds will cover all the section
+	* --------------------------------------- */
+	.section{
+		background-size: cover;
+        background-repeat: no-repeat;
+        
+	}
+ 
+
+
+	.slide{
+		background-size: cover;
+        background-repeat: no-repeat;
+            
+	}
+
+    .slide h1 {font-size:2em;padding-top:20px;}
+    .slide h2 {padding-left:80px;padding-right:80px;}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	#section0{
+		background-image: url(../imgs/img_10.jpg);
+	}
+	#section0 h1 {
+		top: 50%;
+		transform: translateY(-50%);
+		position: relative;
+        font-size:2.5em
+        
+	}
+
+  
+	#section2{
+		background-image: url(../imgs/img_11.jpg);
+		
+	}
+	
+#section2 h1 { text-align:end; padding-top:370px; padding-right:20px;font-size:2em;}
+	
+
+
+	/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(../imgs/img_1.jpg);
+         text-align:left;
+
+		
+	}
+	#slide2{
+		background-image: url(../imgs/img_2.jpg);
+		
+	}
+    
+    #slide3{
+		background-image: url(../imgs/img_3.jpg);
+		
+	}
+
+   #slide4{
+		background-image: url(../imgs/img_4.jpg);
+        text-align:left;
+
+		
+	}
+
+    #slide5{
+		background-image: url(../imgs/img_5.jpg);
+		
+	}
+
+    #slide6{
+		background-image: url(../imgs/img_6.jpg);
+	
+	}
+
+    #slide7{
+		background-image: url(../imgs/img_7.jpg);
+		
+	}
+
+    #slide8{
+		background-image: url(../imgs/img_8.jpg);
+		
+	}
+
+     #slide9{
+		background-image: url(../imgs/img_9.jpg);
+		
+	}
+
+
+
